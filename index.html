@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHOPPE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+      <div class="logo">SHOPPE</div>
+      
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Our Story</a>
+        <hr />
+      </nav>
+
+      <div class="icons">
+        <img src="/assets/images/Icon color (1).svg" alt="Search icon" class="icon" />
+        <img src="/assets/images/Vector.svg" alt="Shopping cart" class="icon" />
+        <img src="/assets/images/Icon color.svg" alt="User account" class="icon" />
+      </div>
+
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Blog</a>
+      <a href="#">Help</a>
+      <a href="#">Contact</a>
+      <a href="#">Search</a>
+      <a href="#" class="mobile-auth">
+        <img src="/assets/images/Icon.svg" class="nav-icon" alt="User icon" /> My account
+      </a>
+      <a href="#" class="mobile-auth">
+        <img src="/assets/images/Icon1.svg" class="nav-icon" alt="Logout icon" /> Logout
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="slider">
+      <div class="slider-content">
+        <h1>Gold big hoops</h1>
+        <p>$ 68,00</p>
+        <button type="button">View Product</button>
+      </div>
+    </section>
+
+    <div class="dots" aria-label="Slider indicators">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <section class="latest-section">
+      <div class="section-header">
+        <h2>Shop The Latest</h2>
+        <a href="#">View All</a>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="/assets/images/Img 01.png" alt="Lira Earrings">
+          <h3>Lira Earrings</h3>
+          <p>$ 20.00</p>
+        </div>
+
+        <div class="product-card">
+          <img src="/assets/images/Img 02.png" alt="Hal Earrings">
+          <h3>Hal Earrings</h3>
+          <p>$ 25.00</p>
+        </div>
+
+        <div class="product-card">
+          <img src="/assets/images/Img 04.png" alt="Kaede Hair Pin Set Of 3">
+          <h3>Kaede Hair Pin Set Of 3</h3>
+          <p>$ 30.00</p>
+        </div>
+
+        <div class="product-card">
+          <img src="/assets/images/Img 04 (1).png" alt="Hair Pin Set of 3">
+          <h3>Hair Pin Set of 3</h3>
+          <p>$ 30.00</p>
+        </div>
+
+        <div class="product-card">
+          <img src="/assets/images/Img 05.png" alt="Plain Necklace">
+          <h3>Plain Necklace</h3>
+          <p>$ 18.00</p>
+        </div>
+
+        <div class="product-card">
+          <img src="/assets/images/Img 07.png" alt="Yuki Hair Pin Set of 3">
+          <h3>Yuki Hair Pin Set of 3</h3>
+          <p>$ 29.00</p>
+          <button type="button" class="add-to-cart">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-links">
+        <a href="#">CONTACT</a>
+        <a href="#">TERMS OF SERVICES</a>
+        <a href="#">SHIPPING AND RETURNS</a>
+      </div>
+
+      <div class="footer-newsletter">
+        <p>Give an email, get the newsletter.</p>
+        <div class="newsletter-input">
+          <input type="email" placeholder="Email" />
+          <button type="button">→</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2021 <strong>Shelly</strong>. Terms of use <strong>and</strong> privacy policy.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
