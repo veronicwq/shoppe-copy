@@ -1,4 +1,4 @@
-/* === Основы и шрифты === */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'DM Sans', serif;
   background-color: #f9f9f9;
   color: #222;
   line-height: 1.6;
@@ -24,7 +24,6 @@ button {
   background: none;
 }
 
-/* === Header === */
 header {
   background-color: white;
   border-bottom: 1px solid #ddd;
@@ -44,8 +43,13 @@ header {
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-family: 'Allerta Stencil',sans-serif;
+  font-size: 2rem;
   letter-spacing: 1px;
+}
+
+.gold-letter {
+  color: #b88e2f;
 }
 
 .desktop-nav {
@@ -78,9 +82,9 @@ header {
 .icon {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
-/* === Mobile Menu === */
 .menu-icon {
   display: none;
   font-size: 1.6rem;
@@ -116,7 +120,6 @@ header {
   height: 16px;
 }
 
-/* === Slider === */
 .slider {
   position: relative;
   display: flex;
@@ -126,6 +129,9 @@ header {
   background-size: cover;
   height: 480px;
   padding: 3rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  overflow: hidden;
 }
 
 .slider-content {
@@ -177,7 +183,7 @@ header {
   background-color: #222;
 }
 
-/* === Product Section === */
+
 .latest-section {
   max-width: 1200px;
   margin: 2rem auto;
@@ -248,7 +254,7 @@ header {
   color: white;
 }
 
-/* === Footer === */
+
 .footer {
   background-color: white;
   border-top: 1px solid #ddd;
