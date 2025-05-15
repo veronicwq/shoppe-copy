@@ -120,10 +120,7 @@ header {
 }
 .slider {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background: url('/assets/images/Img 01 (1).png') no-repeat center right;
+  background: url('assets/images/Img 01 (1).png') no-repeat center right;
   background-size: cover;
   height: 480px;
   padding: 3rem;
@@ -139,6 +136,16 @@ header {
   background-color: rgba(0, 0, 0, 0.2); 
   z-index: 1;
 }
+
+.slider-container{
+display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative; 
+
+}
+
+
 
 .slider-content {
   position: relative;
@@ -173,25 +180,26 @@ header {
   background-color: white;
   color: black;
 }
-
-
-
 .dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   gap: 6px;
-  margin: 1rem 0;
+  z-index: 2;
 }
 
 .dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: #ffffff;
 }
 
 .dot.active {
-  background-color: #222;
+  background-color: #6b6a6a;
 }
 
 
